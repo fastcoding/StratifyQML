@@ -33,7 +33,7 @@ SItem {
             SButton {
                 id: close;
                 style: "right close";
-                icon: Fa.Icon.times;
+                faIcon: Fa.Icon.times;
                 onClicked: { closeClicked(); }
             }
         }

@@ -169,7 +169,7 @@ Item {
             span: 1;
             visible: modal.closeButtonVisible;
             style: "right btn-naked";
-            icon: Fa.Icon.times;
+            faIcon: Fa.Icon.times;
             onClicked: modal.reject();
             enabled: modalVisible;
           }
@@ -197,7 +197,7 @@ Item {
             SButton {
               id: rejectButtonId;
               style: "block btn-danger";
-              icon: Fa.Icon.times;
+              faIcon: Fa.Icon.times;
               onClicked: modal.reject();
               visible: modalVisible && (modal.standardButtons & Dialog.Cancel);
               enabled: modalVisible;
@@ -205,7 +205,7 @@ Item {
             SButton {
               id: acceptButtonId;
               style: "block btn-success";
-              icon: Fa.Icon.check;
+              faIcon: Fa.Icon.check;
               onClicked: {
                 modal.accept();
               }

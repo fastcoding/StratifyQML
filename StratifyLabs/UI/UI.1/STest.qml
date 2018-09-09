@@ -142,9 +142,9 @@ SItem {
                         SRow { SText{ style: "left"; text: "Buttons:"; span:12; } }
 
                         SRow {
-                            SButton{ span: 4; style: "btn-default center"; icon: Fa.Icon.check; text: "Default"; }
-                            SButton{ span: 4; style: "btn-primary center"; icon: Fa.Icon.times; text: "Primary"; }
-                            SButton{ span: 4; style: "btn-info center"; icon: Fa.Icon.lock; text: "Info"; }
+                            SButton{ span: 4; style: "btn-default center"; faIcon: Fa.Icon.check; text: "Default"; }
+                            SButton{ span: 4; style: "btn-primary center"; faIcon: Fa.Icon.times; text: "Primary"; }
+                            SButton{ span: 4; style: "btn-info center"; faIcon: Fa.Icon.lock; text: "Info"; }
                         }
 
                         SRow {
@@ -182,21 +182,21 @@ SItem {
                         SRow { SText{ style: "center"; text: "Button Icons:"; span:12; } }
 
                         SRow {
-                            SButton{ span: 4; style: "btn-primary btn-lg center fa-spin"; icon: Fa.Icon.refresh; text: "Refresh"; }
-                            SButton{ span: 4; style: "btn-primary btn-lg center fa-spin"; icon: Fa.Icon.cog; text: "Working"; }
-                            SButton{ span: 4; style: "btn-primary btn-lg center fa-pulse"; icon: Fa.Icon.refresh; text: "Pulse"; }
+                            SButton{ span: 4; style: "btn-primary btn-lg center fa-spin"; faIcon: Fa.Icon.refresh; text: "Refresh"; }
+                            SButton{ span: 4; style: "btn-primary btn-lg center fa-spin"; faIcon: Fa.Icon.cog; text: "Working"; }
+                            SButton{ span: 4; style: "btn-primary btn-lg center fa-pulse"; faIcon: Fa.Icon.refresh; text: "Pulse"; }
                         }
 
                         SRow {
-                            SButton{ span: 4; style: "btn-primary btn-lg center fa-spin"; icon: Fa.Icon.spinner; text: "Refresh"; spin: true; }
-                            SButton{ span: 4; style: "btn-primary btn-lg center fa-spin"; icon: Fa.Icon.circle_o_notch; text: "Working"; spin: true; }
-                            SButton{ span: 4; style: "btn-primary btn-lg center fa-pulse"; icon: Fa.Icon.spinner; text: "Pulse";  pulse: true; }
+                            SButton{ span: 4; style: "btn-primary btn-lg center fa-spin"; faIcon: Fa.Icon.spinner; text: "Refresh"; spin: true; }
+                            SButton{ span: 4; style: "btn-primary btn-lg center fa-spin"; faIcon: Fa.Icon.circle_o_notch; text: "Working"; spin: true; }
+                            SButton{ span: 4; style: "btn-primary btn-lg center fa-pulse"; faIcon: Fa.Icon.spinner; text: "Pulse";  pulse: true; }
                         }
 
                         SRow {
-                            SButton{ span: 4; style: "btn-lg center fa-spin"; icon: Fa.Icon.location_arrow; text: "Naked"; }
-                            SButton{ span: 4; style: "btn-lg center fa-pulse"; icon: Fa.Icon.repeat; text: "Naked"; }
-                            SButton{ span: 4; style: "btn-lg center fa-spin"; icon: Fa.Icon.safari; text: "Naked"; }
+                            SButton{ span: 4; style: "btn-lg center fa-spin"; faIcon: Fa.Icon.location_arrow; text: "Naked"; }
+                            SButton{ span: 4; style: "btn-lg center fa-pulse"; faIcon: Fa.Icon.repeat; text: "Naked"; }
+                            SButton{ span: 4; style: "btn-lg center fa-spin"; faIcon: Fa.Icon.safari; text: "Naked"; }
                         }
 
 

@@ -7,7 +7,7 @@ SRow {
   }
   SButton {
     span: 4;
-    icon: Fa.Icon.cog;
+    faIcon: Fa.Icon.cog;
   }
   SBadge {
     span: 4;

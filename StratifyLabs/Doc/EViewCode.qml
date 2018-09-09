@@ -10,7 +10,7 @@ SContainer {
       span: STheme.isScreenSm ? 2 : 6;
       style: "left btn-naked";
       text: "Back";
-      icon: Fa.Icon.chevron_left;
+      faIcon: Fa.Icon.chevron_left;
       onClicked: showContent();
     }
 
@@ -18,7 +18,7 @@ SContainer {
       span: STheme.isScreenSm ? 2 : 6;
       style: "right btn-outline-secondary";
       text: "Copy";
-      icon: Fa.Icon.copy;
+      faIcon: Fa.Icon.copy;
       onClicked: {
         //copy content of code example to clipboard
         code.textArea.copy();

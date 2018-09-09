@@ -45,7 +45,7 @@ below for more information).';
   SButton {
     style: "btn-outline-info block";
     text: "Font Awesome Cheatsheet";
-    icon: Fa.Icon.external_link;
+    faIcon: Fa.Icon.external_link;
     onClicked: Qt.openUrlExternally("http://fontawesome.io/cheatsheet/");
   }
 }

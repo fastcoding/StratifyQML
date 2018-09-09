@@ -25,7 +25,7 @@ CheckBox {
     property alias style: attr.style;
 
     property string iconChecked: Fa.Icon.check_square_o;
-    property string icon: Fa.Icon.square_o;
+    property string faIcon: Fa.Icon.square_o;
 
     SAttributes {
         id: attr;
@@ -49,7 +49,7 @@ CheckBox {
     indicator: Text {
         x: text ? (control.mirrored ? control.width - width - control.rightPadding : control.leftPadding) : control.leftPadding + (control.availableWidth - width) / 2
         y: control.topPadding + (control.availableHeight - height) / 2
-        text: control.checked ? control.iconChecked: control.icon;
+        text: control.checked ? control.iconChecked: control.faIcon;
         font.italic: attr.fontItalic;
         font.family: attr.fontIcon;
         font.pointSize: attr.fontSize*1.4;

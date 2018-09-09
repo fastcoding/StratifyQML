@@ -11,7 +11,7 @@ SColumn {
       SButton {
         span: 1;
         style: "btn-naked text-on-success left";
-        icon: Fa.Icon.chevron_left;
+        faIcon: Fa.Icon.chevron_left;
         onClicked: {
           animationContainer.screen = "Screen1";
         }
@@ -20,7 +20,7 @@ SColumn {
       SButton {
         span: 1;
         style: "btn-naked text-on-success right";
-        icon: Fa.Icon.chevron_right;
+        faIcon: Fa.Icon.chevron_right;
         onClicked: {
           animationContainer.screen = "Screen2";
         }

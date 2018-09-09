@@ -1,0 +1,18 @@
+{
+  "name": "cn.com.szsuma.StratifyQML",
+  "author": {
+    "name": "Zhang Han Xi",
+    "email": "zhanghx@szsuma.com.cn"
+  },
+  "repository": {
+    "type": "GIT",
+    "url": "https://github.com/fastcoding/StratifyQML.git"
+  },
+  "version": {
+    "label": "0.0.1"
+  },
+  "dependencies": [
+  ],
+  "license": "MIT",
+  "priFilename": "cn_com_szsuma_StratifyQML.pri"
+}

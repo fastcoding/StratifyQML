@@ -26,7 +26,7 @@ RadioButton {
     property alias span: attr.span;
 
     property string iconChecked: Fa.Icon.circle;
-    property string icon: Fa.Icon.circle_o;
+    property string faIcon: Fa.Icon.circle_o;
 
     SAttributes {
         id: attr;
@@ -45,7 +45,7 @@ RadioButton {
     indicator: Text {
         x: text ? (control.mirrored ? control.width - width - control.rightPadding : control.leftPadding) : control.leftPadding + (control.availableWidth - width) / 2
         y: control.topPadding + (control.availableHeight - height) / 2
-        text: control.checked ? control.iconChecked : control.icon;
+        text: control.checked ? control.iconChecked : control.faIcon;
         font.family: attr.fontIcon;
         font.pointSize: attr.fontSize*1.5;
         color: attr.fontColor;

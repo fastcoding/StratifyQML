@@ -28,7 +28,7 @@ Component.onCompleted: {
   SButton {
     style: "btn-outline-info block";
     text: "View STheme.qml on Github";
-    icon: Fa.Icon.external_link;
+    faIcon: Fa.Icon.external_link;
     onClicked: Qt.openUrlExternally("https://github.com/StratifyLabs/StratifyQML");
   }
 }

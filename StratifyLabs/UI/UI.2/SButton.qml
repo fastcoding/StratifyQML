@@ -27,7 +27,7 @@ Button {
 
     //additional properties
     property alias label: control.text;
-    property string icon;
+    property string faIcon;
     property alias iconItem: contentIcon;
 
     implicitWidth: contentItem.implicitWidth + attr.paddingHorizontal*2;
@@ -46,7 +46,7 @@ Button {
 
     contentItem:  SIcon {
         id: contentIcon;
-        icon: control.icon;
+        icon: control.faIcon;
         label: control.text;
         attr.style: control.attr.style;
         attr.fontColor: control.attr.fontColor;
